@@ -88,8 +88,8 @@ main{
 .Productive-Users-Section{
   background-color: #4E47FF10;
   padding: 50px 80px;
-   margin: 120px 140px; 
-   border-radius: 24px;
+  margin: 120px 140px; 
+  border-radius: 24px;
 }
 .Productive-Users-Section h3{
   font-size: 38px;
@@ -116,4 +116,51 @@ main{
   color: #25243250;
   font-size: 20px;
   margin: 0px;
+}
+/* get in touch section style */
+.touch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px 140px; 
+  padding: 80px 0px;
+  background-color: white;
+  
+}
+.touch-title{
+  font-size: 80px;
+  font-weight: bold;
+  color: #000000;
+}
+.touch-form label {
+  display: block;
+
+
+}
+form{
+ display: flex;
+ flex-direction: column;
+}
+form label{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+form input,
+form textarea {
+  margin-bottom: 19px;
+  padding: 20px 30px;
+  font-size: 20px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  
 }
